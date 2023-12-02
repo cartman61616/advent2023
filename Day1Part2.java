@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Day1Part2 {
     public static void main(String[] args) {
-        String filePath = "tester.txt"; // Replace with your file path
+        String filePath = "day1data.txt"; // Replace with your file path
         List<Integer> listOfNums = new ArrayList<>();
         Integer total = 0;
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {

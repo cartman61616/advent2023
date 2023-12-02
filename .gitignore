@@ -18,3 +18,5 @@ target/
 # Gradle files
 build/
 .gradle/
+
+.DS_Store
